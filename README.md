@@ -3,3 +3,6 @@
 ## Mestre <b> WELL CITY </b> the best
 
 um salve para meu amigo coto e meus outros amigos ai em especial coto joao e ana valeuuuuu
+
+## Comando instalar Routes
+```npm install react-router-dom``` 
