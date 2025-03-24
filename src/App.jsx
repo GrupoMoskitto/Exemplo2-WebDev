@@ -1,8 +1,18 @@
-import Contador from './components/Contador'
+// import Contador from './components/Contador'
+import { BrowserRouter, Routes, Route} from "react-router-dom"
+import Home from './routes/Home'
+import Error from './routes/Error'
 
 function App() {
   return (
-    <div><Contador/></div>
+    <>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="*" element={<Error/>}/>
+      </Routes>
+    </BrowserRouter>
+    </>
   )
 }
 
